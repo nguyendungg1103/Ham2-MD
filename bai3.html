@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hàm tìm giai thừa của một số nguyên bất kì</title>
+</head>
+<body>
+<script>
+    let number = +prompt('nhap so');
+    console.log(number);
+
+    function findFactorial(factorial) {
+        let result =1;
+        for (let i = 2; i <= factorial; i++) {
+            result*= i;
+
+        }
+        return result;
+    }
+    console.log(findFactorial(number));
+</script>
+
+</body>
+</html>

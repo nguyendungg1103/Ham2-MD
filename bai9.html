@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script>
+    let arr1 = [1,2,3,4,5];
+
+    function checkkitu(str,n) {
+        let arr= str.split('')
+        let count = 0;
+        for (let i = 0; i <arr.length ; i++) {
+            if(arr[i]===n){
+                count++;
+            }
+
+        }
+        if(count==0){
+           return -1
+
+        }else {
+            return count;
+        }
+
+
+    }
+    alert(checkkitu('13565','5'))
+
+
+
+</script>
+
+</body>
+</html>
